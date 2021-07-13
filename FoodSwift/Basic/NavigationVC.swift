@@ -5,7 +5,7 @@
 //  Created by Apple on 2021/7/12.
 //
 
-// 枚举
+//导航栏颜色
 enum NavigationBarStyle {
     case theme
     case clear
@@ -13,7 +13,6 @@ enum NavigationBarStyle {
 }
 
 import UIKit
-
 
 class NavigationVC: UINavigationController{
     
@@ -74,6 +73,7 @@ extension NavigationVC {
         return topVC.preferredStatusBarStyle
     }
 }
+
 
 
 extension UINavigationController {

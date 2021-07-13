@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		183DD70F269C20BE009BEBEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183DD70E269C20BE009BEBEC /* AppDelegate.swift */; };
-		183DD711269C20BE009BEBEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183DD710269C20BE009BEBEC /* SceneDelegate.swift */; };
 		183DD713269C20BF009BEBEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183DD712269C20BF009BEBEC /* ViewController.swift */; };
 		183DD716269C20BF009BEBEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183DD714269C20BF009BEBEC /* Main.storyboard */; };
 		183DD718269C20DD009BEBEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183DD717269C20DD009BEBEC /* Assets.xcassets */; };
@@ -16,8 +15,19 @@
 		183DD726269C20DD009BEBEC /* FoodSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183DD725269C20DD009BEBEC /* FoodSwiftTests.swift */; };
 		183DD731269C20DD009BEBEC /* FoodSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183DD730269C20DD009BEBEC /* FoodSwiftUITests.swift */; };
 		183DD740269C2682009BEBEC /* NavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183DD73F269C2682009BEBEC /* NavigationVC.swift */; };
-		183DD742269C26A8009BEBEC /* TableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183DD741269C26A8009BEBEC /* TableViewVC.swift */; };
 		18CADFD0269C387C00F798CA /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CADFCF269C387B00F798CA /* UIColorExtension.swift */; };
+		18CAE0FB269D70B500F798CA /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAE0FA269D70B500F798CA /* TabBarController.swift */; };
+		18CAE0FD269D727300F798CA /* BasicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAE0FC269D727300F798CA /* BasicController.swift */; };
+		18CAE0FF269D72AA00F798CA /* CommunityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAE0FE269D72AA00F798CA /* CommunityVC.swift */; };
+		18CAE101269D72C500F798CA /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAE100269D72C500F798CA /* HomeVC.swift */; };
+		18CAE103269D72F100F798CA /* BookrackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAE102269D72F100F798CA /* BookrackVC.swift */; };
+		18CAE105269D72FE00F798CA /* MineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAE104269D72FE00F798CA /* MineVC.swift */; };
+		18CAE109269D77E900F798CA /* SegmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAE108269D77E800F798CA /* SegmentVC.swift */; };
+		18CAE10B269D7C1100F798CA /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAE10A269D7C1100F798CA /* Global.swift */; };
+		18CAE112269D820A00F798CA /* DounloadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAE111269D820A00F798CA /* DounloadVC.swift */; };
+		18CAE114269D822500F798CA /* ReadHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAE113269D822500F798CA /* ReadHistoryVC.swift */; };
+		18CAE116269D823B00F798CA /* BookListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAE115269D823B00F798CA /* BookListVC.swift */; };
+		18CAE118269D825400F798CA /* BookCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAE117269D825400F798CA /* BookCollectionVC.swift */; };
 		30E0640F4BE552C9D590FC0A /* Pods_FoodSwift_FoodSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6ADF4BEFEF156D167A5B7BD /* Pods_FoodSwift_FoodSwiftUITests.framework */; };
 		32123752AD434DC337FD2F59 /* Pods_FoodSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F78A917B99FB66C3B546FDC /* Pods_FoodSwift.framework */; };
 		61EB8C45A3A2B507E2E94CB2 /* Pods_FoodSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65717587FF796B26E3C3C80B /* Pods_FoodSwiftTests.framework */; };
@@ -43,7 +53,6 @@
 /* Begin PBXFileReference section */
 		183DD70B269C20BE009BEBEC /* FoodSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		183DD70E269C20BE009BEBEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		183DD710269C20BE009BEBEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		183DD712269C20BF009BEBEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		183DD715269C20BF009BEBEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		183DD717269C20DD009BEBEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,8 +65,19 @@
 		183DD730269C20DD009BEBEC /* FoodSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodSwiftUITests.swift; sourceTree = "<group>"; };
 		183DD732269C20DD009BEBEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		183DD73F269C2682009BEBEC /* NavigationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationVC.swift; sourceTree = "<group>"; };
-		183DD741269C26A8009BEBEC /* TableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewVC.swift; sourceTree = "<group>"; };
 		18CADFCF269C387B00F798CA /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		18CAE0FA269D70B500F798CA /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		18CAE0FC269D727300F798CA /* BasicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicController.swift; sourceTree = "<group>"; };
+		18CAE0FE269D72AA00F798CA /* CommunityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityVC.swift; sourceTree = "<group>"; };
+		18CAE100269D72C500F798CA /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		18CAE102269D72F100F798CA /* BookrackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookrackVC.swift; sourceTree = "<group>"; };
+		18CAE104269D72FE00F798CA /* MineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineVC.swift; sourceTree = "<group>"; };
+		18CAE108269D77E800F798CA /* SegmentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentVC.swift; sourceTree = "<group>"; };
+		18CAE10A269D7C1100F798CA /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		18CAE111269D820A00F798CA /* DounloadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DounloadVC.swift; sourceTree = "<group>"; };
+		18CAE113269D822500F798CA /* ReadHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadHistoryVC.swift; sourceTree = "<group>"; };
+		18CAE115269D823B00F798CA /* BookListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListVC.swift; sourceTree = "<group>"; };
+		18CAE117269D825400F798CA /* BookCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionVC.swift; sourceTree = "<group>"; };
 		18CB6B66C2E21D7AD75F68DF /* Pods-FoodSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-FoodSwiftTests/Pods-FoodSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		3C8E32360E905EDF35B046FE /* Pods-FoodSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodSwift.release.xcconfig"; path = "Target Support Files/Pods-FoodSwift/Pods-FoodSwift.release.xcconfig"; sourceTree = "<group>"; };
 		57DEAAD99241723182290961 /* Pods-FoodSwift-FoodSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodSwift-FoodSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-FoodSwift-FoodSwiftUITests/Pods-FoodSwift-FoodSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -123,11 +143,13 @@
 			isa = PBXGroup;
 			children = (
 				183DD73E269C260D009BEBEC /* Basic */,
+				18CAE106269D730A00F798CA /* Main */,
+				18CAE107269D732500F798CA /* Common */,
+				18CAE10A269D7C1100F798CA /* Global.swift */,
 				183DD714269C20BF009BEBEC /* Main.storyboard */,
 				183DD717269C20DD009BEBEC /* Assets.xcassets */,
 				183DD719269C20DD009BEBEC /* LaunchScreen.storyboard */,
 				183DD71C269C20DD009BEBEC /* Info.plist */,
-				18CADFCF269C387B00F798CA /* UIColorExtension.swift */,
 			);
 			path = FoodSwift;
 			sourceTree = "<group>";
@@ -154,12 +176,76 @@
 			isa = PBXGroup;
 			children = (
 				183DD70E269C20BE009BEBEC /* AppDelegate.swift */,
-				183DD710269C20BE009BEBEC /* SceneDelegate.swift */,
 				183DD712269C20BF009BEBEC /* ViewController.swift */,
 				183DD73F269C2682009BEBEC /* NavigationVC.swift */,
-				183DD741269C26A8009BEBEC /* TableViewVC.swift */,
+				18CAE0FA269D70B500F798CA /* TabBarController.swift */,
+				18CAE0FC269D727300F798CA /* BasicController.swift */,
+				18CAE108269D77E800F798CA /* SegmentVC.swift */,
 			);
 			path = Basic;
+			sourceTree = "<group>";
+		};
+		18CAE106269D730A00F798CA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				18CAE10C269D81A000F798CA /* Home */,
+				18CAE10D269D81B000F798CA /* Commun */,
+				18CAE10E269D81BC00F798CA /* Book */,
+				18CAE10F269D81C500F798CA /* Mine */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		18CAE107269D732500F798CA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				18CADFCF269C387B00F798CA /* UIColorExtension.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		18CAE10C269D81A000F798CA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				18CAE100269D72C500F798CA /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		18CAE10D269D81B000F798CA /* Commun */ = {
+			isa = PBXGroup;
+			children = (
+				18CAE0FE269D72AA00F798CA /* CommunityVC.swift */,
+			);
+			path = Commun;
+			sourceTree = "<group>";
+		};
+		18CAE10E269D81BC00F798CA /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				18CAE110269D81E200F798CA /* C */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		18CAE10F269D81C500F798CA /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				18CAE104269D72FE00F798CA /* MineVC.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		18CAE110269D81E200F798CA /* C */ = {
+			isa = PBXGroup;
+			children = (
+				18CAE102269D72F100F798CA /* BookrackVC.swift */,
+				18CAE111269D820A00F798CA /* DounloadVC.swift */,
+				18CAE113269D822500F798CA /* ReadHistoryVC.swift */,
+				18CAE115269D823B00F798CA /* BookListVC.swift */,
+				18CAE117269D825400F798CA /* BookCollectionVC.swift */,
+			);
+			path = C;
 			sourceTree = "<group>";
 		};
 		ADEF7EC1583CA78A17CAADEB /* Pods */ = {
@@ -423,12 +509,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CAE105269D72FE00F798CA /* MineVC.swift in Sources */,
+				18CAE103269D72F100F798CA /* BookrackVC.swift in Sources */,
+				18CAE118269D825400F798CA /* BookCollectionVC.swift in Sources */,
 				183DD713269C20BF009BEBEC /* ViewController.swift in Sources */,
-				183DD742269C26A8009BEBEC /* TableViewVC.swift in Sources */,
 				183DD70F269C20BE009BEBEC /* AppDelegate.swift in Sources */,
+				18CAE0FF269D72AA00F798CA /* CommunityVC.swift in Sources */,
+				18CAE114269D822500F798CA /* ReadHistoryVC.swift in Sources */,
+				18CAE10B269D7C1100F798CA /* Global.swift in Sources */,
+				18CAE101269D72C500F798CA /* HomeVC.swift in Sources */,
 				183DD740269C2682009BEBEC /* NavigationVC.swift in Sources */,
-				183DD711269C20BE009BEBEC /* SceneDelegate.swift in Sources */,
+				18CAE112269D820A00F798CA /* DounloadVC.swift in Sources */,
+				18CAE0FB269D70B500F798CA /* TabBarController.swift in Sources */,
+				18CAE116269D823B00F798CA /* BookListVC.swift in Sources */,
 				18CADFD0269C387C00F798CA /* UIColorExtension.swift in Sources */,
+				18CAE109269D77E900F798CA /* SegmentVC.swift in Sources */,
+				18CAE0FD269D727300F798CA /* BasicController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
