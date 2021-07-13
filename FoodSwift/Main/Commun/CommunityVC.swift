@@ -12,7 +12,6 @@ class CommunityVC: BasicController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     
     //重写父类方法
