@@ -18,6 +18,7 @@ class NavigationVC: UINavigationController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+       
         setupLayout()
     }
     func setupLayout(){
@@ -73,7 +74,6 @@ extension NavigationVC {
         return topVC.preferredStatusBarStyle
     }
 }
-
 
 
 extension UINavigationController {

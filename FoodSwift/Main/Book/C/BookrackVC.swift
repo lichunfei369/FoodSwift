@@ -7,7 +7,7 @@
 
 import UIKit
 
-class BookrackVC: SegmentVC {
+class BookrackVC: BasicController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +21,7 @@ class BookrackVC: SegmentVC {
     
     override func configNavigationBar() {
         super.configNavigationBar()
-        navigationController?.navigationBar.isHidden = false
+        navigationController?.navigationBar.isHidden = true
         navigationController?.barStyle(.clear)
         navigationItem.title = ""
     }

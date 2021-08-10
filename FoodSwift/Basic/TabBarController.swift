@@ -11,47 +11,43 @@ class TabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        //设置选中颜色
+        self.tabBar.tintColor = UIColor.black
+        //设置tabBar背景颜色
+//        self.tabBar.barTintColor = UIColor(red: 41/255.0, green: 42/255.0, blue: 47/255.0, alpha: 1)
         //关闭半透明状态
         tabBar.isTranslucent = false
         setupLayout()
         //设置默认跳到的界面
-        selectedIndex = 1
+//        selectedIndex = 0
     }
     
     func setupLayout(){
         //社区
         let communityVC =  CommunityVC()
         addChildController(communityVC,
-                           title: "社区",
-                           image: UIImage(named: "tab_today"),
-                           selectedImage: UIImage(named: "tab_today_selected"))
+                           title: "探索",
+                           image: UIImage(named: "home"),
+                           selectedImage: UIImage(named: "home"))
         //发现
         let homeVC = HomeVC()
         addChildController(homeVC,
-                           title: "发现",
-                           image: UIImage(named: "tab_find"),
-                           selectedImage: UIImage(named: "tab_find_selected"))
+                           title: "展厅",
+                           image: UIImage(named: "home"),
+                           selectedImage: UIImage(named: "home"))
         //书架
-        let bookSegmentVC = BookrackVC(titles: ["收藏",
-                                                "书单",
-                                                "历史",
-                                                "下载"], vcs: [
-                                                    BookCollectionVC(),
-                                                          BookListVC(),
-                                                          ReadHistoryVC(),
-                                                          DounloadVC(),
-                                                ], segmentStyle: .navgationBarSegment)
+        let bookSegmentVC = BookrackVC()
         addChildController(bookSegmentVC,
-                           title: "书架",
-                           image: UIImage(named: "tab_book"),
-                           selectedImage: UIImage(named: "tab_book_selected"))
+                           title: "爱车",
+                           image: UIImage(named: "home"),
+                           selectedImage: UIImage(named: "home"))
  
     
         let mineVC = MineVC()
         addChildController(mineVC,
                            title: "我的",
-                           image: UIImage(named: "tab_mine"),
-                           selectedImage: UIImage(named: "tab_mine_selected"))
+                           image: UIImage(named: "home"),
+                           selectedImage: UIImage(named: "home"))
         
     }
 
@@ -59,9 +55,10 @@ class TabBarController: UITabBarController {
         
         childController.title = title
         childController.tabBarItem = UITabBarItem(
-            title: nil,
+            title: title,
             image: image?.withRenderingMode(.alwaysOriginal),
             selectedImage: selectedImage?.withRenderingMode(.alwaysOriginal))
+
         //判断是否是手机设备
         if UIDevice.current.userInterfaceIdiom == .phone {
             childController.tabBarItem.imageInsets = UIEdgeInsets(top: 6,
@@ -71,9 +68,6 @@ class TabBarController: UITabBarController {
         }
         addChild(NavigationVC(rootViewController: childController))
     }
-    
-  
-
 }
 
 extension TabBarController {
